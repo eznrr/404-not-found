@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500&family=Space+Mono:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.alerta{
+    margin: 2.5% 0 0 5%;
+    height: 4vh;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: -1.92px;
+    text-transform: uppercase;
+    color: #333;
+    display: flex;
+}
+
+.main{
+    height: 92vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main > img{
+    margin-right: 117px;
+    width: 540px;
+    height: 447px;
+}
+
+.conteudo{
+    max-width: 586px;
+}
+
+.titulo{
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 64px;
+    color: #333;
+    letter-spacing: -2.24px;
+    margin-bottom: 36px;
+}
+
+.texto{
+    max-width: 381px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: -0.84px;
+    color: #4F4F4F;
+    margin-bottom: 64px;
+}
+
+.btn-voltar{
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    outline: none;
+    letter-spacing: -0.49px;
+    border: none;
+    background-color: #333;
+    padding: 24px 43px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-voltar:hover{
+    background-color: #545454;
+}
+
+.btn-voltar:active{
+    transform: scale(0.98);
+}
+
+.rodape{
+    height: 4vh;
+    font-family: 'Montserrat', sans-serif;
+    color: #BDBDBD;
+    display: flex;
+    justify-content: center;
+}
+
+.rodape > a{
+    color: #BDBDBD;
+}
+
+.rodape > a:hover{
+    color: #545454;
+}
+
+@media (max-width: 1200px){
+
+    .main > img{
+        width: 400px;
+        height: 307px;
+        margin-right: 27px;
+    }
+
+    .conteudo{
+        max-width: 446px;
+    }
+
+    .titulo{
+        font-size: 48px;
+        margin-bottom: 30px;
+    }
+
+    .texto{
+        font-size: 18px;
+        max-width: 300px;
+        margin-bottom: 66px;
+    }
+
+}
+
+@media (max-width: 700px){
+
+    .main{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .main > img{
+        width: 286px;
+        height: 238px;
+    }
+
+    .conteudo{
+        max-width: 350px;
+    }
+
+    .titulo{
+        font-size: 48px;
+    }
+
+    .texto{
+        font-size: 18px;
+        max-width: 328px;
+    }
+}
