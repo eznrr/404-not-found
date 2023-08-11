@@ -22,24 +22,12 @@
   </h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Built With](#built-with)
-- [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
-
 <!-- OVERVIEW -->
 
 ## Overview
 
-![404-not-found-page]()
+![404-not-found-page](https://github.com/eznrr/404-not-found-/blob/main/img.png?raw=true)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-  
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
@@ -55,5 +43,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@your-username](https://github.com/eznrr)
-- Instagram [@your-instagram](https://www.instagram.com/oznnne_/)
+- GitHub [@eznrr](https://github.com/eznrr)
+- Instagram [@oznnne_](https://www.instagram.com/oznnne_/)
